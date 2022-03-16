@@ -17,7 +17,7 @@ use App\Http\Livewire\Admin\FormsLivewire;
 |
 */
 
- 
+
 
 Auth::routes();
 Route::get('/logout', [LoginController::class, 'logout']);
